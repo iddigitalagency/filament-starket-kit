@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "siubie/kaido-kit",
+    "name": "iddigital/starterkit",
     "type": "project",
-    "description": "Filament Admin Panel Starter Kit with pre-configured packages and settings",
+    "description": "ID Digital Filament Starter Kit",
     "keywords": [
         "laravel",
         "framework",
@@ -97,6 +97,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable"`,
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
