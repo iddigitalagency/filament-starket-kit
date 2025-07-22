@@ -105,7 +105,7 @@ class AdminPanelProvider extends PanelProvider
             FilamentSocialitePlugin::make()
                 ->providers([
                     Provider::make('google')
-                        ->label('Google')
+                        ->label('Developer Login')
                         ->icon('fab-google')
                         ->color(Color::hex('#2f2a6b'))
                         ->outlined(true)
@@ -119,6 +119,8 @@ class AdminPanelProvider extends PanelProvider
                     $user->email = $oauthUser->getEmail();
                     $user->email_verified_at = now();
                     $user->save();
+
+                    $user->assignRole('developer');
 
                     return $user;
                 }),
