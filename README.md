@@ -41,7 +41,7 @@ composer create-project iddigital/starter
 7. Run Installation Command
    
    ```bash
-   php artisan starter:install
+   php artisan key:generate && php artisan starter:install
    ```
 8. Acccess admin panel.
    
