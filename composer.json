@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "iddigital/starterkit",
+    "name": "iddigitalagency/starterkit",
     "type": "project",
     "description": "ID Digital Filament Starter Kit",
     "keywords": [
