@@ -3,6 +3,7 @@
     "name": "iddigitalagency/starterkit",
     "type": "project",
     "description": "ID Digital Filament Starter Kit",
+    "version": "1.0.0",
     "keywords": [
         "laravel",
         "framework",
